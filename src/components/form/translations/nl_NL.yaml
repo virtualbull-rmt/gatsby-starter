@@ -1,0 +1,13 @@
+mixed:
+  required: 'Vul dit veld in'
+string:
+  email: 'Dit mailadres lijkt niet correct'
+postcode:
+  format: 'Postcode moet geldig zijn'
+phoneNumber:
+  format: 'Telefoonnummer is niet juist'
+  uniquness: 'Telefoonnummer is al gebruikt'
+username:
+  uniquness: 'Gebruikersnaam is al gebruikt'
+boolean:
+  checked: Selecteer akkoord met voorwaarden

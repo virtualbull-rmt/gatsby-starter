@@ -1,0 +1,31 @@
+.c-overview {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4em 0;
+  padding-left: 4em;
+  padding-right: 4em;
+
+  @media screen and (max-width: 812px) { 
+    margin: 0;
+    padding-left: 0em;
+    padding-right: 0em;
+  }
+}
+
+.c-overview__column {
+  width: calc(33.33% - 8em);
+  margin: 0 4em;
+
+  @media screen and (max-width: 812px) { 
+    width: 100%;
+    margin: 1em 0;
+  }
+}
+
+.c-overview__title {
+  margin-bottom: 0.5em;
+}
+
+.c-overview__text {
+  line-height: 1.5em;
+}

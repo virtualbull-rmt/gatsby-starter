@@ -1,0 +1,13 @@
+.c-services {
+
+}
+
+.c-services__list {
+  padding-left: 4em;
+  padding-right: 4em;
+
+  @media screen and (max-width: 812px) {
+    padding-left: 0em;
+    padding-right: 0em;
+  }
+}

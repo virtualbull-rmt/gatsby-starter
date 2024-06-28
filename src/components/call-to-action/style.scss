@@ -1,0 +1,76 @@
+.c-call-to-action {
+  margin-bottom: 4em;
+}
+
+.c-call-to-action__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em 0;
+  z-index: 0;
+}
+
+.c-call-to-action__content {
+  display: flex;
+  align-items: center;
+  background: $b-color-white;
+  padding: 4em 3em;
+  box-shadow: 0px 20px 40px 0px rgba($b-color-black, 0.1);
+  max-width: calc(100% - 6em);
+
+  @media screen and (max-width: 468px) {
+    max-width: calc(100% - 2em);
+  }
+
+  @media screen and (max-width: 812px) {
+    flex-direction: column;
+    padding: 2em 2em;
+  }
+}
+
+.c-call-to-action__btn {
+  box-shadow: 0px 2px 20px 0px rgba($b-color-black, 0.1);
+
+  @media screen and (max-width: 812px) {
+    margin-top: 2em;
+  }
+}
+
+.c-advantages {
+  margin: -0.75em 6em -0.75em 0;
+
+  @media screen and (max-width: 812px) {
+    margin-right: 0;
+  }
+}
+
+.c-advantage {
+  display: flex;
+  align-items: center;
+  margin: 0.75em 0;
+}
+
+.c-advantage__icon {
+  margin-right: 1em;
+  flex-shrink: 0;
+}
+
+.c-advantages__text {
+  line-height: 2.25em;
+}
+
+.c-call-to-action__buttons {
+  display: flex;
+  flex-direction: row;
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+  }
+
+  a + a {
+    margin-left: 1em;
+    @media screen and (max-width: 1024px) {
+      margin-top: 1em;
+      margin-left: 0;
+    }
+  }
+}

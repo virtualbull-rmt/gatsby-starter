@@ -1,0 +1,36 @@
+.c-usp {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  padding-left: 4em;
+  padding-right: 4em;
+
+  @media screen and (max-width: 468px) {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+.c-usp__headline {
+  margin: 0 0 2em 0;
+  text-align: center;
+}
+
+.c-usp__list {
+  margin-left: 8em;
+  margin-right: 8em;
+
+  @media screen and (max-width: 812px) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.c-usp__btn {
+  display: flex;
+  justify-content: center;
+  margin: 3em 0;
+
+  @media screen and (max-width: 812px) { 
+    margin: 1em 0;
+  }
+}

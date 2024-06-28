@@ -1,0 +1,29 @@
+@font-face {
+  font-family: $avenir-next--regular;
+  font-style: normal;
+  font-weight: normal;
+  font-display: auto;
+  src: url("/fonts/Avenir-Next/AvenirNextLTPro-Regular.woff") format("woff");
+  font-display: swap;
+  font-named-instance: "Regular";
+}
+
+@font-face {
+  font-family: $avenir-next--demi;
+  font-style: normal;
+  font-weight: normal;
+  font-display: auto;
+  src: url("/fonts/Avenir-Next/AvenirNextLTPro-Demi.woff") format("woff");
+  font-display: swap;
+  font-named-instance: "Demi";
+}
+
+@font-face {
+  font-family: $avenir-next--bold;
+  font-style: normal;
+  font-weight: normal;
+  font-display: auto;
+  src: url("/fonts/Avenir-Next/AvenirNextLTPro-Bold.woff") format("woff");
+  font-display: swap;
+  font-named-instance: "Bold";
+}

@@ -1,0 +1,13 @@
+.c-vertical-nav {
+  margin: -.375em 0em;
+}
+
+.c-vertical-nav__item {
+  display: block;
+  text-decoration: none;
+  line-height: 2.25em;
+
+  &:hover {
+    color: $b-color-blue;
+  }
+}

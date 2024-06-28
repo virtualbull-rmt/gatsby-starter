@@ -1,0 +1,42 @@
+.c-horizontal-nav {
+  display: flex;
+  font-family: $avenir-next--regular, Avenir, Arial, sans-serif;
+  margin: -0.5em -0.75em;
+}
+
+.c-horizontal-nav__item {
+  padding: 0.5em 0.75em;
+  cursor: pointer;
+  transition: color 125ms;
+  text-decoration: none;
+  color: $b-color-deep-blue;
+
+  &:hover {
+    color: $b-color-blue;
+  }
+}
+
+.c-horizontal-nav__item--featured {
+  border: 1px solid rgba($b-color-black, 0.1); 
+  border-radius: 10px;
+  margin: 0 1em;
+
+  &:hover {
+    border-color: $b-color-blue;
+  }
+}
+
+.c-horizontal-nav__item--underlined {
+  position: relative;
+  font-family: $avenir-next--bold, Avenir, Arial, sans-serif;
+
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: -0.115em;
+    left: 1em;
+    right: 1em;
+    height: 2px;
+    background: $b-color-deep-blue;
+  }
+}

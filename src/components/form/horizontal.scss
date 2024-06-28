@@ -1,0 +1,14 @@
+.c-form--horizontal {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: -1em;
+
+  .c-form__input {
+    margin: 1em;
+  }
+
+  .c-form__buttons {
+    margin: 1em;
+  }
+}

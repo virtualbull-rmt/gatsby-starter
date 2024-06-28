@@ -1,0 +1,8 @@
+.c-form--vertical {
+  display: flex;
+  flex-direction: column;
+
+  .c-form__input {
+    margin: .75em 0;
+  }
+}

@@ -1,0 +1,38 @@
+.c-note {
+  max-width: 40em;
+  margin: 2em auto;
+}
+
+.c-note--blue .c-note__content {
+  background: #D6FBF6;
+}
+
+.c-note--yellow .c-note__content {
+  background: #FEF5A4;
+}
+
+.c-note__content {
+  padding: 3em 4em;
+  line-height: 1.5em;
+  margin-right: 6em;
+
+  @media screen and (max-width: 812px) {
+    margin-right: 0;
+  }
+
+  @media screen and (max-width: 468px) {
+    padding: 2em 2em 3em 2em;
+  }
+}
+
+.c-note__img {
+  max-width: 100%;
+  margin-top: -2em;
+  margin-left: 6em;
+
+  @media screen and (max-width: 812px) {
+    margin-left: 1em;
+    margin-right: 1em;
+    max-width: calc(100% - 2em);
+  }
+}

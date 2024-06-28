@@ -1,0 +1,26 @@
+.c-sitemap {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em -1em -1em -1em;
+}
+
+.c-sitemap__section {
+  width: calc(50% - 2em);
+  margin: 1em;
+
+  @media screen and (max-width: 468px) {
+    width: 100%;
+  }
+}
+
+.c-sitemap__section--full {
+  width: 100%;
+}
+
+.c-sitemap__headline {
+  margin-bottom: 1em;
+}
+
+.c-sitemap__link {
+  color: $b-color-black;
+}

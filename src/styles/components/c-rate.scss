@@ -1,0 +1,13 @@
+.c-rate {
+  display: flex;
+  align-items: center;
+}
+
+.c-rate__stars {
+  font-size: 1.25em;
+}
+
+.c-rate__score {
+  color: $b-color-deep-blue;
+  margin-left: .5em;
+}

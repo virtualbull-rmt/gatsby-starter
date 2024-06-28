@@ -1,0 +1,50 @@
+.c-btn {
+  display: inline-flex;
+  font-family: $avenir-next--demi, Avenir, Arial, sans-serif;
+  background: $b-color-blue;
+  color: $b-color-white;
+  border-radius: 10px;
+  padding: 0.75em 2.5em;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 250ms;
+  flex-shrink: 0;
+  text-align: center;
+  white-space: nowrap;
+  outline: none;
+  border: none;
+  justify-content: center;
+  align-items: flex-end;
+
+  &:hover {
+    background: $b-color-marine-blue;
+  }
+
+  > svg {
+    margin-right: 0.5em;
+  }
+}
+
+.c-btn--large {
+  padding: 1.5em 3em;
+
+  @media screen and (max-width: 812px) {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+}
+
+.c-btn--small {
+  font-size: 0.9em;
+  font-family: $avenir-next--regular, Avenir, Arial, sans-serif;
+}
+
+.c-btn--white {
+  background: $b-color-white;
+  color: $b-color-gray--primary;
+  border: 1px solid $b-color-gray--secondary;
+
+  &:hover {
+    background: $b-color-gray--tertiary;
+  }
+}

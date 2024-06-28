@@ -1,0 +1,18 @@
+---
+navigations:
+  left:
+  - anchor: Huishoudelijke hulp
+    url: /huishoudelijke-hulp/
+    isFeatured: false
+  - anchor: Kennismaken
+    url: /over-ons/
+    isFeatured: false
+  - anchor: Helpdesk
+    url: /klantenservice/
+    isFeatured: false
+  - anchor: Werken als hulp
+    url: /schoonmaakwerk/
+    isFeatured: true
+  right:
+    anchor: Mijn HomeWorks
+    url: https://mijn.homeworks.nl/

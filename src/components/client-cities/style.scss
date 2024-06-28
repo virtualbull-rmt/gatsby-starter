@@ -1,0 +1,40 @@
+.c-quick-nav {
+  columns: 5;
+  margin: 1em 0;
+  @media screen and (max-width: 1240px) {
+    columns: 3;
+  }
+  @media screen and (max-width: 812px) {
+    columns: 2;
+  }
+}
+.c-quick-nav__link {
+  color: $b-color-black;
+}
+.c-page__content.c-quick-nav--content {
+  text-align: center;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.c-quick-nav-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  width: 820px;
+  margin: 0 auto;
+  .c-quick-nav__item {
+    margin: 0.45rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

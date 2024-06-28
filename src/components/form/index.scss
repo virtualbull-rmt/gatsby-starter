@@ -1,0 +1,44 @@
+@import 'horizontal';
+@import 'vertical';
+
+.c-form__label {
+  font-family: $avenir-next--demi, Avenir, Arial, sans-serif;
+  line-height: 1.25em;
+  color: $b-color-deep-blue;
+  margin-bottom: 0.5em;
+}
+
+.c-form__label--light {
+  font-family: inherit;
+  line-height: 1.25em;
+  margin-bottom: 0.25em;
+  color: $b-color-gray--primary;
+}
+
+.c-form__input {
+  flex-grow: 1;
+
+  &.c-form__input--invalid .c-form__label,
+  &.c-form__input--invalid .c-checkbox__label {
+    color: $b-color-red !important;
+  }
+  
+  &.c-form__input--invalid .c-input {
+    border-color: $b-color-red;
+    color: $b-color-red;
+  }
+
+  &.c-form__input--invalid .c-input--light {
+    border-bottom-color: $b-color-red;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .c-form__input {
+    width: 100%;
+  }
+}
+
+.c-form + .c-form {
+  margin-top: 1em;
+}

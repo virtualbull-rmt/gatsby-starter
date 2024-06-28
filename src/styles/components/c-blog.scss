@@ -1,0 +1,9 @@
+.c-blog {
+  padding-left: 4em;
+  padding-right: 4em;
+
+  @media screen and (max-width: 468px) {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}

@@ -1,0 +1,25 @@
+.c-input {
+  background: $b-color-white;
+  border: 1px solid $b-color-gray--secondary;
+  border-radius: 10px;
+  padding: 1em;
+  width: 100%
+}
+
+.c-input--light {
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid $b-color-blue;
+  color: $b-color-gray--primary;
+  outline: none;
+  padding: .5em 0;
+  width: 100%;
+  border-radius: 0;
+}
+
+.c-input__error:not(:empty) {
+  color: $b-color-red;
+  margin-top: .5em;
+}

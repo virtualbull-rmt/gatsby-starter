@@ -1,0 +1,27 @@
+.c-breadcrumb {
+  display: flex;
+  padding: 0 4em;
+
+  @media screen and (max-width: 812px) { 
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+.c-breadcrumb__item {
+  display: flex;
+  color: $b-color-gray--primary;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 1em 0;
+
+  @media screen and (max-width: 812px) { 
+    padding: 0;
+  }
+
+  &:after {
+    display: block;
+    content: ' / ';
+    margin: 0 .5em;
+  }
+}

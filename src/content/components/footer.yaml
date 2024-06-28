@@ -1,0 +1,58 @@
+---
+contact:
+  social:
+    facebook: https://www.facebook.com/homeworkshulp
+    twitter: https://twitter.com/hwdiensten
+    linkedin: https://www.linkedin.com/company/homeworks---domestic-services
+    instagram: https://www.instagram.com/homeworks_official
+  phoneNumbers:
+  - number: '085 4444 090'
+    comment: ''
+  emailAddresses:
+  - email: info@homeworks.nl
+    comment: ''
+navigations:
+  services:
+    headline: Diensten
+    items:
+    - anchor: Huishoudelijke hulp
+      url: /huishoudelijke-hulp/
+    - anchor: Cleaning services
+      url: /cleaning-service/
+    - anchor: Schoonmaakster
+      url: /schoonmaakster/
+    - anchor: Helpdesk
+      url: /klantenservice/
+  domesticCleaning:
+    headline: Huishoudelijke hulp
+    items:
+    - anchor: Amsterdam
+      url: /huishoudelijke-hulp/amsterdam/
+    - anchor: Den Haag
+      url: /huishoudelijke-hulp/den-haag/
+    - anchor: Eindhoven
+      url: /huishoudelijke-hulp/eindhoven/
+    - anchor: Rotterdam
+      url: /huishoudelijke-hulp/rotterdam/
+  cleaningWork:
+    headline: Schoonmaakwerk
+    items:
+    - anchor: Amsterdam
+      url: /schoonmaakwerk/amsterdam/
+    - anchor: Den Haag
+      url: /schoonmaakwerk/den-haag/
+    - anchor: Eindhoven
+      url: /schoonmaakwerk/eindhoven/
+    - anchor: Rotterdam
+      url: /schoonmaakwerk/rotterdam/
+  general:
+    headline: Algemeen
+    items:
+    - anchor: Jouw team
+      url: /over-ons/
+    - anchor: Huishoudelijk schoonmaakwerk
+      url: "/schoonmaakwerk/"
+    - anchor: Privacy en veiligheid
+      url: /privacy-en-veiligheid/
+    - anchor: Sitemap
+      url: /sitemap/

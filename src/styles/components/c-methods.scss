@@ -1,0 +1,47 @@
+.c-methods {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em -2em;
+  justify-content: center;
+
+  @media screen and (max-width: 812px) { 
+    flex-wrap: wrap;
+    margin: 1em -0.5em;
+  }
+}
+
+.c-method {
+  background: $b-color-blue;
+  color: $b-color-white;
+  border-radius: 10px;
+  width: 7em;
+  height: 7em;
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  cursor: pointer;
+  transition: background 250ms;
+  flex-shrink: 0;
+  text-decoration: none;
+
+  &:hover {
+    background: $b-color-marine-blue;
+  }
+
+  @media screen and (max-width: 812px) { 
+    margin: 0.5em;
+  }
+}
+
+.c-method__icon {
+  color: $b-color-white;
+  font-size: 2em;
+  margin-bottom: .25em;
+}
+
+.c-method__name {
+  // font-family: $avenir-next--demi, Avenir, Arial, sans-serif;
+}

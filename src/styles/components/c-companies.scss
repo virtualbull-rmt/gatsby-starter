@@ -1,0 +1,26 @@
+.c-companies {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2em 0;
+
+  @media screen and (max-width: 812px) { 
+    margin: 0 0;
+  }
+}
+
+.c-company {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2em;
+  width: calc(25% - 4em);
+
+  @media screen and (max-width: 812px) { 
+    width: 100%;
+  }
+}
+
+.c-company__img {
+  width: 7.5em;
+  max-height: 4em;
+}

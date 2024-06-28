@@ -1,0 +1,31 @@
+.c-history {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  padding-left: 4em;
+  padding-right: 4em;
+
+  @media screen and (max-width: 468px) {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+.c-history__text {
+  margin: 0 auto;
+  max-width: 30em;
+  font-size: 1.25em;
+  line-height: 1.5em;
+  font-family: $avenir-next--regular, Avenir, Arial, sans-serif;
+  color: $b-color-deep-blue;
+}
+
+.c-history__text a {
+  color: $b-color-blue;
+  text-decoration: none;
+}
+
+.c-history__btn {
+  display: flex;
+  justify-content: center;
+  margin: 2em 0;
+}

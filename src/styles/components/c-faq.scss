@@ -1,0 +1,24 @@
+.c-faq {
+  background: $b-color-gray--tertiary;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.c-faq__inner {
+  padding: 4em;
+
+  @media screen and (max-width: 468px) {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+.c-faq__headline {
+  text-align: center;
+}
+
+.c-faq__btn {
+  display: flex;
+  justify-content: center;
+  margin: 2em 0;
+}

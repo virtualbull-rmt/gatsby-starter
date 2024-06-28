@@ -1,0 +1,35 @@
+.c-post {
+
+}
+
+.c-post__meta {
+  color: $b-color-gray--primary;
+  margin-top: 2em;
+  margin-bottom: 1em;
+
+  @media screen and (max-width: 812px) { 
+    margin-top: 1em;
+    margin-bottom: 0;
+  }
+}
+
+.c-post__author {
+  font-family: $avenir-next--demi, Avenir, Arial, sans-serif;
+}
+
+.c-post__annotation {
+  font-size: 1.1em;
+  line-height: 2em;
+  color: $b-color-gray--primary;
+}
+
+.c-post__blockquote {
+  background: #edfcfc;
+  padding: 3em;
+  margin: 2em 0;
+  text-align: center;
+}
+
+.c-post__date {
+  margin-left: 0.5em;
+}

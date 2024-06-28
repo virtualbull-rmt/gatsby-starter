@@ -1,0 +1,32 @@
+.c-feedback-company {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $b-color-deep-blue;
+
+  @media screen and (max-width: 812px) { 
+    flex-direction: column;
+  }
+}
+
+.c-feedback-company__logo {
+  margin-right: 1em;
+  width: 8em;
+}
+
+.c-feedback-company__stars {
+  font-size: 1.25em;
+
+  @media screen and (max-width: 812px) { 
+    margin: 1em 0;
+  }
+}
+
+.c-feedback-company__score {
+  color: $b-color-deep-blue;
+  margin-left: 1em;
+
+  @media screen and (max-width: 812px) { 
+    margin-top: 1em;
+  }
+}

@@ -1,0 +1,18 @@
+.c-personal-contact {
+  background: $b-color-gray--tertiary;
+  padding: 3em 4em;
+  margin-top: 3em;
+  margin-bottom: 0em;
+
+  @media screen and (max-width: 812px) { 
+    padding: 3em 2em;
+  }
+
+  @media screen and (max-width: 468px) {
+    padding: 3em 1em;
+  }
+}
+
+.c-personal-contact + .c-banner {
+  margin-top: 0;
+}
